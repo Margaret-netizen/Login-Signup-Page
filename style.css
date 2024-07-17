@@ -1,0 +1,166 @@
+@font-face{
+	font-family: serif;
+}
+
+
+*{
+	margin:0px;
+	padding: 0px;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.container{
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: white;
+}
+
+.login{
+	width: 60%;
+	height: 400px;
+	background-color:white;
+	display: flex;
+	position: relative;
+}
+
+.page_left_sec{
+	background-color:darkcyan;
+	width: 45%;
+	height: 115%;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius:10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	line-height: 20px;
+
+}
+
+
+.page_right_sec{
+    background-color:ghostwhite;
+	width: 58%;
+	height: 115%;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius:10px ;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	line-height: 20px;
+
+}
+.signintitle{
+	font-size:30px;
+	font-family: serif;
+	color: white;
+	line-height: 30px;
+	padding-bottom: 16px;
+	text-align: center;
+}
+
+.part{
+	color: white;
+	line-height: 20px;
+	font-family: serif;
+	font-size: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+
+
+}
+.signinup{
+	width: 100px;
+	height: 50px;
+	border: 1px solid white;
+	background-color: transparent;
+	cursor: pointer;
+	font-family: serif;
+	font-size: 16px;
+	color: whitesmoke;
+	text-transform: uppercase;
+	border-radius: 10px;
+}
+
+.signin{
+	font-size:30px;
+	font-family: serif;
+	color: black;
+	line-height: 50px;
+	padding-bottom: 16px;
+	text-align: center;
+}
+
+.part{
+	color: white;
+	line-height: 20px;
+	font-family: serif;
+	font-size: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+
+	.signup{
+	font-size:30px;
+	font-family: serif;
+	color: darkcyan;
+	line-height: 30px;
+	padding-bottom: 16px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.socialmediaicon1{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	justify-items: self-end;
+	align-items: center;
+	align-content: center;
+}
+
+
+	
+.opt >input{
+	width: 100%;
+	background-color: transparent;
+    border:0px;
+    border-bottom: 1px solid darkcyan;
+    display: flex;
+    outline: none;
+   font-size: 20px;
+   font-family: serif;
+
+}
+    
+
+.create{
+	width: 100px;
+	height: 50px;
+	border: 1px solid darkcyan;
+	background-color: transparent;
+	cursor: pointer;
+	font-family: serif;
+	font-size: 16px;
+	color: darkcyan;
+	text-transform: uppercase;
+	border-radius: 10px;
+}
+
+.email{
+	font-family: serif;
+	font-size:20px;
+	color: darkcyan;
+	padding: 10px;
+	
+}
+
+
+
